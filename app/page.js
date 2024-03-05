@@ -6,7 +6,7 @@ import Hero from '@/components/Hero'
 
 export default function Home() {
   return (
-    <main className='grid grid-cols-4 container mx-auto'>
+    <main className='grid grid-cols-4 container mx-auto' id='home'>
       <Left />
       <Hero />
     </main>

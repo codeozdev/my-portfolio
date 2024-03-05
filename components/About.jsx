@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className='start'>
+    <div className='start' id="about">
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand'>ABOUT US </p>
       <h1 className='font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.25em]'>WHO AM I?</h1>
       <p className='tracking-[0.10em] leading-7 text-sm font-sand text-neutral-600 select-none'>
