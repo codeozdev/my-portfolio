@@ -1,5 +1,3 @@
-'use client'
-
 import Left from '@/components/Left'
 import Hero from '@/components/Hero'
 
