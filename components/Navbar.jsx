@@ -27,5 +27,3 @@ export default function Navbar() {
     </div>
   )
 }
-
-// underline underline-offset-8 text-blue-500

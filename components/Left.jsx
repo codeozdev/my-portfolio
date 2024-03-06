@@ -30,5 +30,3 @@ export default function Left() {
     </div>
   )
 }
-
-// yazi paketini p icinde kullanma onun yerine h tagi ile kullan
