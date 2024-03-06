@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className='grid grid-cols-4 container mx-auto' id='home'>
       <Left />
-      <Hero />a
+      <Hero />
     </main>
   )
 }
