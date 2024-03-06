@@ -7,7 +7,7 @@ import Contact from './Contact'
 const myData = {
   title: 'Welcome to the world of full-stack development!',
   fullName: 'Oguzhan Uguz',
-  statu: 'I am working on Full-stack projects',
+  state: 'I am working on Full-stack projects',
 }
 
 export default function Right() {
@@ -25,7 +25,7 @@ export default function Right() {
         <h2 className='font-sand text-4xl absolute top-1/3 left-20 font-semibold text-neutral-600'>
           <Typewriter
             options={{
-              strings: [`${myData.title}`, `My name is ${myData.fullName}`, `${myData.statu}`],
+              strings: [`${myData.title}`, `My name is ${myData.fullName}`, `${myData.state}`],
               pauseFor: 1500,
               autoStart: true,
               loop: true,
