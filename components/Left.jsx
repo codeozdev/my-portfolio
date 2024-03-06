@@ -11,7 +11,7 @@ export default function Left() {
           alt='foto'
           width={200}
           height={200}
-          className='aspect-square rounded-full object-cover object-top'
+          className='aspect-square rounded-full object-cover object-top pointer-events-none'
         />
         <h2 className='font-playFair font-semibold text-2xl mt-4'>Oguzhan Uguz</h2>
         <p className='text-[10px] uppercase'>
