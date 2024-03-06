@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Left() {
   return (
-    <div className='col-span-1 bg-[#f2f3f7] sticky top-0 bottom-0 left-0 h-screen'>
+    <div className='col-span-1 bg-[#f2f3f7] sticky top-0 bottom-0 left-0 h-screen hidden sm:block'>
       <div className='flex flex-col items-center justify-center py-14 gap-3'>
         <Image
           src='/foto.png'

@@ -12,7 +12,7 @@ const myData = {
 
 export default function Right() {
   return (
-    <div className='col-span-3'>
+    <div className='sm:col-span-3'>
       <div className='relative'>
         <Image
           src='/right.avif'
@@ -22,7 +22,7 @@ export default function Right() {
           className='h-screen w-full object-cover pointer-events-none opacity-70'
           quality={100}
         />
-        <h2 className='font-sand text-4xl absolute top-1/3 left-20 font-semibold text-neutral-600'>
+        <h2 className='font-sand text-4xl absolute top-1/3 px-8 sm:px-0 sm:left-20 font-semibold text-neutral-600 text-center'>
           <Typewriter
             options={{
               strings: [`${myData.title}`, `My name is ${myData.fullName}`, `${myData.state}`],
