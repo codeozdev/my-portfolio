@@ -13,7 +13,7 @@ export default function Left() {
           height={200}
           className='aspect-square rounded-full object-cover object-top'
         />
-        <h1 className='font-playFair font-semibold text-2xl mt-4'>Oguzhan Uguz</h1>
+        <h2 className='font-playFair font-semibold text-2xl mt-4'>Oguzhan Uguz</h2>
         <p className='text-[10px] uppercase'>Fullstack Developer in
           <span className='text-blue-500'> Ankara</span>
         </p>

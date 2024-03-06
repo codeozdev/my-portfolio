@@ -1,6 +1,5 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
 import { Link } from 'react-scroll'
 
 const navLinks = [
@@ -11,19 +10,16 @@ const navLinks = [
 ]
 
 export default function Navbar() {
-  const pathname = usePathname()
 
   return (
     <div className='flex flex-col items-center justify-center gap-5 mt-6 font-sand tracking-widest'>
 
       {navLinks.map((link) => {
-        const isActive = pathname === link.href
 
         return (
           <Link
-            to={link.to}
-            key={link.name} spy={true} smooth={true} offset={30} duration={500}
-            className={`hover:text-blue-500 hover:underline underline-offset-8 ${isActive ? 'underline underline-offset-8 text-blue-500' : ''}`}>
+            to={link.to} key={link.name} spy={true} smooth={true} offset={30} duration={500}
+            className={`hover:text-blue-500 hover:underline underline-offset-8`}>
             {link.name}
           </Link>
         )
@@ -31,3 +27,5 @@ export default function Navbar() {
     </div>
   )
 }
+
+// underline underline-offset-8 text-blue-500

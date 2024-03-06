@@ -13,5 +13,8 @@
   .start {
     @apply mt-16 p-10
   }
-}
 
+  h1{
+    @apply font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.10em] uppercase
+  }
+ }

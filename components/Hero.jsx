@@ -22,7 +22,7 @@ export default function Right() {
           className='h-screen w-full object-cover pointer-events-none'
           quality={100}
         />
-        <h2 className='font-playFair text-4xl absolute top-1/3 left-20 font-semibold text-neutral-600'>
+        <h2 className='font-sand text-4xl absolute top-1/3 left-20 font-semibold text-neutral-600'>
           <Typewriter
             options={{
               strings: [`${myData.title}`, `My name is ${myData.fullName}`, `${myData.statu}`],

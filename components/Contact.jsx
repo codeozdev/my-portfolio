@@ -7,17 +7,17 @@ export default function Contact() {
   return (
     <div className='start' id="contact">
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase'>get in touch</p>
-      <h1 className='font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.25em] uppercase'>Contact</h1>
+      <h1>Contact</h1>
       <div className="flex items-center justify-between w-[80%]">
         <div className="flex items-center gap-3">
           <MdOutgoingMail size={40} />
           <p>ozudev@gmail.com</p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href={'/https://github.com/codeozdev'} >
+          <Link href={'https://github.com/codeozdev'} target="_blank" >
             <FaGithub size={30} />
           </Link>
-          <Link href={'/https://twitter.com/codeozdev'} >
+          <Link href={'https://twitter.com/codeozdev'} target="_blank" >
             <FaTwitter size={30} />
           </Link>
         </div>

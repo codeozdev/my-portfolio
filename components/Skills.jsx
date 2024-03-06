@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div className='start' id='skills'>
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase'>What I do? </p>
-      <h1 className='font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.25em] uppercase'>Here are some of my expertise</h1>
+      <h1>Here are some of my expertise</h1>
       <div>
         {/* FRONTEND */}
         <h1 className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase mt-10 mb-3'>FRONTEND</h1>
