@@ -19,7 +19,7 @@ export default function Contact() {
           <Link href={'https://twitter.com/codeozdev'} target='_blank'>
             <FaTwitter size={30} />
           </Link>
-          <Link href={'https://twitter.com/codeozdev'} target='_blank'>
+          <Link href={'https://www.linkedin.com/in/oguzhanuguz/'} target='_blank'>
             <FaLinkedin size={30} />
           </Link>
         </div>
