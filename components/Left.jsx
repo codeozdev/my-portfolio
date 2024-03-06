@@ -14,16 +14,18 @@ export default function Left() {
           className='aspect-square rounded-full object-cover object-top'
         />
         <h2 className='font-playFair font-semibold text-2xl mt-4'>Oguzhan Uguz</h2>
-        <p className='text-[10px] uppercase'>Fullstack Developer in
+        <p className='text-[10px] uppercase'>
+          Fullstack Developer in
           <span className='text-blue-500'> Ankara</span>
         </p>
         <Navbar />
         <div className='bottom-0 absolute my-5 text-xs'>
+          <p className='text-neutral-500 text-center px-5'>© Copyright ©2024 All rights reserved</p>
           <p className='text-neutral-500 text-center px-5'>
-            © Copyright ©2024 All rights reserved
-          </p>
-          <p className='text-neutral-500 text-center px-5'>Demo Images:
-            <Link href={'https://unsplash.com'} className='text-blue-500' target='_blank'> Unsplash.com</Link>
+            Demo Images:{' '}
+            <Link href={'https://unsplash.com'} className='text-blue-500' target='_blank'>
+              Unsplash.com
+            </Link>
           </p>
         </div>
       </div>
