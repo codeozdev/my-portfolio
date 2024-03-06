@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply bg-white overflow-x-hidden;
+    @apply bg-white !overflow-x-hidden;
   }
 
   .start {

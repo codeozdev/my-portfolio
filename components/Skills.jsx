@@ -87,7 +87,7 @@ export default function Skills() {
             <div className='sm:w-[100px] sm:h-[100px]'>
               <Image src={'/sass.png'} alt='' width={200} height={200} quality={100} />
             </div>
-            <p className='font-bold text-sm mt-3 text-neutral-600'>Sass CSS</p>
+            <p className='font-bold text-sm mt-3 text-neutral-600'>Sass</p>
           </div>
         </div>
         {/* BACKEND */}
