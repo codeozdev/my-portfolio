@@ -15,12 +15,11 @@ export default function Right() {
     <div className='sm:col-span-3'>
       <div className='relative'>
         <Image
-          src='/right.avif'
-          alt='foto'
-          width={1920}
-          height={1080}
-          className='h-screen w-full object-cover pointer-events-none opacity-70'
-          quality={100}
+          src={'/main/1.svg'}
+          alt='alt'
+          width={100}
+          height={100}
+          className='object-cover pointer-events-none opacity-30 sm:opacity-70 w-full sm:w-1/2 h-auto sm:ml-auto'
         />
         <h2 className='font-sand text-4xl absolute top-1/3 px-8 sm:px-0 sm:left-20 font-semibold text-neutral-600 text-center'>
           <Typewriter
