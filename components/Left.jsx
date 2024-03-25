@@ -13,15 +13,15 @@ export default function Left() {
           height={200}
           className='aspect-square rounded-full object-cover object-top pointer-events-none'
         />
-        <h2 className='font-sand font-semibold text-2xl mt-4'>Oguzhan Uguz</h2>
-        <p className='text-[10px] uppercase'>
+        <h2 className='font-sand font-semibold text-center xl:text-2xl mt-4'>Oguzhan Uguz</h2>
+        <p className='text-[10px] uppercase text-center'>
           Fullstack Developer in
           <span className='text-blue-500'> Ankara</span>
         </p>
         <Navbar />
         <div className='bottom-0 absolute my-5 text-xs'>
-          <p className='text-neutral-500 text-center px-5'>© Copyright ©2024 All rights reserved</p>
-          <p className='text-neutral-500 text-center px-5'>
+          <p className='text-neutral-500 text-center sm:px-5'>© Copyright ©2024 All rights reserved</p>
+          <p className='text-neutral-500 text-center sm:px-5'>
             Demo Images:{' '}
             <Link href={'https://unsplash.com'} className='text-blue-500' target='_blank'>
               Unsplash.com
