@@ -19,7 +19,7 @@ export default function Right() {
           alt='alt'
           width={100}
           height={100}
-          className='object-cover pointer-events-none opacity-30 sm:opacity-70 w-full sm:w-1/2 h-auto sm:ml-auto'
+          className='bg-gradient-to-tr from-white from-40% to-gray-500 object-cover pointer-events-none opacity-30 sm:opacity-70 w-full sm:w-1/2 h-auto sm:ml-auto'
         />
         <h2 className='font-sand text-4xl absolute top-1/3 px-8 sm:px-0 sm:left-20 font-semibold text-neutral-600 text-center'>
           <Typewriter

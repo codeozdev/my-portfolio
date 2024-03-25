@@ -17,4 +17,8 @@
   h1{
     @apply font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.10em] uppercase
   }
+
+  .myStyle {
+    @apply max-w-[140px] max-h-[170px] flex items-center flex-col justify-center gap-3
+  }
  }
