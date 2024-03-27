@@ -11,29 +11,29 @@ export default function Skills() {
           FRONTEND
         </h1>
         <div className='grid grid-cols-3 gap-1 sm:gap-3 place-items-center xl:flex xl:gap-3 xl:items-center'>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/html.png'} alt='html' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>HTML</p>
+            <p className='styleName'>HTML</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/javascript.png'} alt='javascript' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>JavaScript</p>
+            <p className='styleName'>JavaScript</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/typescript.png'} alt='typescript' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>TypeScript</p>
+            <p className='styleName'>TypeScript</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/react.png'} alt='react' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>React</p>
+            <p className='styleName'>React</p>
           </div>
-          <div className='shadow-2xl shadow-blue-500 text-center p-5 myStyle border-b-2 border-blue-500'>
+          <div className='shadow-2xl shadow-blue-500 text-center myStyle border-b-2 border-blue-500'>
             <Image src={'/next.png'} alt='next' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Nextjs</p>
+            <p className='styleName'>Nextjs</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/redux.png'} alt='redux' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Redux</p>
+            <p className='styleName'>Redux</p>
           </div>
         </div>
         {/* STYLE */}
@@ -41,29 +41,29 @@ export default function Skills() {
           styling
         </h1>
         <div className='grid grid-cols-3 gap-1 sm:gap-3 place-items-center xl:flex xl:gap-3 xl:items-center'>
-          <div className='shadow-2xl shadow-blue-500 text-center p-5 border-b-2 border-blue-500 myStyle'>
+          <div className='shadow-2xl shadow-blue-500 text-center border-b-2 border-blue-500 myStyle'>
             <Image src={'/tailwind.png'} alt='tailwind' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Tailwind</p>
+            <p className='styleName'>Tailwind</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/bootstrap.png'} alt='bootstrap' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Bootstrap</p>
+            <p className='styleName'>Bootstrap</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/mui.png'} alt='material' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Material</p>
+            <p className='styleName'>Material</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/semantic.png'} alt='semantic' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Semantic</p>
+            <p className='styleName'>Semantic</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/daisy.png'} alt='daisy' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Daisy UI</p>
+            <p className='styleName'>Daisy UI</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
+          <div className='shadow-2xl text-center myStyle'>
             <Image src={'/sass.png'} alt='sass' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Sass</p>
+            <p className='styleName'>Sass</p>
           </div>
         </div>
         {/* BACKEND */}
@@ -71,21 +71,28 @@ export default function Skills() {
           BACKEND
         </h1>
         <div className='grid grid-cols-3 gap-1 sm:gap-3 place-items-center xl:flex xl:gap-3 xl:items-center'>
-          <div className='shadow-2xl shadow-blue-500 text-center p-5 border-b-2 border-blue-500 myStyle'>
-            <Image src={'/nodejs.png'} alt='nodejs' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Nodejs</p>
+          <div className='shadow-2xl shadow-blue-500 text-center border-b-2 border-blue-500 myStyle'>
+            <Image src={'/nodejs.png'} alt='nodejs' width={200} height={200} quality={100} className='p-3 sm:px-0' />
+            <p className='styleName'>Nodejs</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
-            <Image src={'/mongodb.png'} alt='mongodb' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>MongoDB</p>
+          <div className='shadow-2xl text-center myStyle'>
+            <Image src={'/mongodb.png'} alt='mongodb' width={200} height={200} quality={100} className='p-3 sm:px-0' />
+            <p className='styleName'>MongoDB</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle'>
-            <Image src={'/nextauth.png'} alt='nextauth' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>NextAuth</p>
+          <div className='shadow-2xl text-center myStyle gap-1 sm:gap-3'>
+            <Image
+              src={'/nextauth.png'}
+              alt='nextauth'
+              width={200}
+              height={200}
+              quality={100}
+              className='p-3 sm:px-0'
+            />
+            <p className='styleName'>NextAuth</p>
           </div>
-          <div className='shadow-2xl text-center p-5 myStyle col-start-2 xl:col-start-1'>
-            <Image src={'/jwt.png'} alt='jwt' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>JWT</p>
+          <div className='shadow-2xl text-center myStyle'>
+            <Image src={'/jwt.png'} alt='jwt' width={200} height={200} quality={100} className='p-3 sm:px-0' />
+            <p className='styleName'>JWT</p>
           </div>
         </div>
         {/* EXTRA */}
@@ -95,23 +102,23 @@ export default function Skills() {
         <div className='grid grid-cols-3 gap-1 sm:gap-3 place-items-center xl:flex xl:gap-3 xl:items-center'>
           <div className='shadow-2xl text-center p-5 myStyle'>
             <Image src={'/c.png'} alt='c#' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>C#</p>
+            <p className='styleName'>C#</p>
           </div>
           <div className='shadow-2xl text-center p-5 myStyle'>
             <Image src={'/python.png'} alt='python' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Python</p>
+            <p className='styleName'>Python</p>
           </div>
           <div className='shadow-2xl text-center p-5 myStyle'>
             <Image src={'/git.png'} alt='git' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Git</p>
+            <p className='styleName'>Git</p>
           </div>
           <div className='shadow-2xl text-center p-5 myStyle'>
             <Image src={'/figma.png'} alt='figma' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Figma</p>
+            <p className='styleName'>Figma</p>
           </div>
           <div className='shadow-2xl shadow-blue-500 text-center p-5 myStyle border-b-2 border-blue-500'>
             <Image src={'/linux.png'} alt='linux' width={200} height={200} quality={100} />
-            <p className='font-bold text-sm text-neutral-600'>Linux</p>
+            <p className='styleName'>Linux</p>
           </div>
         </div>
       </div>

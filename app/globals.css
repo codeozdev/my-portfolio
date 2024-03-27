@@ -19,6 +19,10 @@
   }
 
   .myStyle {
-    @apply max-w-[140px] max-h-[170px] flex items-center flex-col justify-center gap-3
+    @apply max-w-[140px] max-h-[170px] flex items-center flex-col justify-center gap-3 p-2 sm:p-5
+  }
+
+  .styleName{
+    @apply font-bold text-[8px] sm:text-sm text-neutral-600
   }
  }
