@@ -225,6 +225,18 @@ export default function Skills() {
         <div className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'>
           <div className='icons-div'>
             <Image
+              src={'/extra/rust.png'}
+              alt='rust'
+              width={200}
+              height={200}
+              quality={100}
+              className='icons-img'
+            />
+            <p className='icons-p'>Rust</p>
+          </div>
+
+          <div className='icons-div'>
+            <Image
               src={'/extra/c.png'}
               alt='c#'
               width={200}

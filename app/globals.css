@@ -11,35 +11,23 @@
   }
 
   .start {
-    @apply mt-16 p-10
+    @apply mt-16 p-10;
   }
-
-  /*still header*/
-  h1{
-    @apply font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.10em] uppercase
-  }
-
-  /*.myStyle {*/
-  /*  @apply flex items-center flex-col justify-center gap-3 aspect-square*/
-  /*}*/
 
   /*Skills.jsx CSS*/
+  h1 {
+    @apply font-playFair my-4 text-lg font-semibold text-neutral-700 tracking-[0.10em] uppercase;
+  }
+
   .icons-div {
-    @apply flex items-center flex-col justify-center gap-3 w-full h-full aspect-square shadow-2xl text-center p-3 !important
+    @apply flex items-center flex-col justify-center gap-3 w-full h-full aspect-square shadow-2xl text-center p-3 !important;
   }
 
   .icons-img {
     @apply w-[50px] h-[50px] sm:w-[75px] sm:h-[75px] md:w-[100px] md:h-[100px]  !important;
   }
 
-  .icons-p{
-    @apply font-bold text-[10px] sm:text-sm text-neutral-600
+  .icons-p {
+    @apply font-bold text-[10px] sm:text-sm text-neutral-600;
   }
-
-
- }
-
-
-/*.myStyle {*/
-/*  @apply max-w-[140px] max-h-[170px] flex items-center flex-col justify-center gap-3 p-2 sm:p-5*/
-/*}*/
+}
