@@ -10,14 +10,18 @@ const navLinks = [
 ]
 
 export default function Navbar() {
-
   return (
     <div className='flex flex-col items-center justify-center gap-5 mt-6 font-sand tracking-widest'>
       {navLinks.map((link) => {
         return (
           <Link
-            to={link.to} key={link.name} spy={true} smooth={true} offset={30} duration={500}
-            className={`hover:text-blue-500 hover:underline underline-offset-8`}>
+            to={link.to}
+            key={link.name}
+            spy={true}
+            smooth={true}
+            offset={30}
+            duration={500}
+            className={`hover:text-blue-500 hover:underline underline-offset-8 cursor-pointer`}>
             {link.name}
           </Link>
         )
