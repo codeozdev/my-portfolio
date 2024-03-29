@@ -1,6 +1,15 @@
+'use client'
+
 import Image from 'next/image'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export default function Skills() {
+  useEffect(() => {
+    AOS.init()
+  })
+
   return (
     <div className='start text-center xl:text-start' id='skills'>
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase'>
@@ -12,7 +21,9 @@ export default function Skills() {
         <h1 className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase mt-10 mb-3'>
           FRONTEND
         </h1>
-        <div className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'>
+        <div
+          className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'
+          data-aos='fade-left'>
           <div className='icons-div'>
             <Image
               src={'/frontend/html.png'}
@@ -90,7 +101,9 @@ export default function Skills() {
         <h1 className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase mt-10 mb-3'>
           styling
         </h1>
-        <div className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'>
+        <div
+          className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'
+          data-aos='fade-right'>
           <div className='icons-div lg:!shadow-red-500'>
             <Image
               src={'/style/tailwind.png'}
@@ -168,7 +181,9 @@ export default function Skills() {
         <h1 className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase mt-10 mb-3'>
           BACKEND
         </h1>
-        <div className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'>
+        <div
+          className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'
+          data-aos='fade-left'>
           <div className='icons-div'>
             <Image
               src={'/backend/nodejs.png'}
@@ -222,7 +237,9 @@ export default function Skills() {
         <h1 className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase mt-10 mb-3'>
           EXTRA
         </h1>
-        <div className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'>
+        <div
+          className='grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 w-full h-full'
+          data-aos='fade-right'>
           <div className='icons-div'>
             <Image
               src={'/extra/rust.png'}
