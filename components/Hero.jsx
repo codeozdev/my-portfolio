@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import About from './About'
-import Skills from './Skills'
 import Contact from './Contact'
+import SkillsList from '@/components/list/skills-list'
 
 const myData = {
   title: 'Welcome to the world of full-stack development!',
@@ -33,7 +33,8 @@ export default function Right() {
         </h2>
       </div>
       <About />
-      <Skills />
+      <SkillsList />
+
       <Contact />
     </div>
   )
