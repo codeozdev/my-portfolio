@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { MdOutgoingMail } from 'react-icons/md'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import HeadComponent from './dynamic-component/head'
 
 export default function Contact() {
   return (
@@ -8,7 +9,7 @@ export default function Contact() {
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase'>
         get in touch
       </p>
-      <h1>Contact</h1>
+      <HeadComponent title="Contact" />
       {/*CONTENT*/}
       <div className='flex items-center justify-between sm:w-[80%]'>
         <div className='flex flex-col sm:flex-row items-center sm:gap-3'>

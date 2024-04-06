@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import { frontend, style, backend, extra } from '@/skilldb'
 import SkillsItem from '@/components/item/skills-item'
+import HeadComponent from '../dynamic-component/head'
 
 export default function SkillsList() {
   useEffect(() => {
@@ -16,7 +17,7 @@ export default function SkillsList() {
       <p className='text-[10px] font-thin text-neutral-600 tracking-[0.35em] font-sand uppercase'>
         What I do?{' '}
       </p>
-      <h1>Here are some of my expertise</h1>
+      <HeadComponent title="Here are some of my expertise" />
       <div>
         {/* FRONTEND */}
         <SkillsItem name='FRONTEND' items={frontend} />
